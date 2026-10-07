@@ -1,6 +1,6 @@
 # Flashcards
 
-Sixty retrieval cards. Format: **Q** → answer hidden behind the fold. Use them spaced (10 min/day, shuffle, say answers *out loud*), not in one sitting — recognition feels like knowledge and isn't. Cards marked ⚡ are the ones interviewers actually ask; cards marked 📍 are anchor cards (answer = file:line) — for those, the standard is "I can open the file to the right region without searching."
+Fifty-six retrieval cards. Format: **Q** → answer hidden behind the fold. Use them spaced (10 min/day, shuffle, say answers *out loud*), not in one sitting — recognition feels like knowledge and isn't. Cards marked ⚡ are the ones interviewers actually ask; cards marked 📍 are anchor cards (answer = file:line) — for those, the standard is "I can open the file to the right region without searching."
 
 ## A. System shape
 

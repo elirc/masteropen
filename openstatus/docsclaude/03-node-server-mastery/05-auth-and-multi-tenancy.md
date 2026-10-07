@@ -190,7 +190,7 @@ If you skim [`apps/dashboard/src/lib/auth/providers.ts`](../../apps/dashboard/sr
 5. **Returning the existence of cross-tenant resources via different error codes.** A 403 on a foreign resource tells the attacker it exists; a 404 doesn't. OpenStatus is consistent: 404 for both "not present" and "in another tenant."
 6. **Forgetting `requireScope` on a write verb.** API keys with read-only scope can write.
 7. **Audit emit outside the transaction.** Now a write can succeed without an audit row.
-8. **Stripping secrets from audit `after`/`before` snapshots** — easy to forget; do it deliberately (see `integration/remove.ts`).
+8. **Stripping secrets from audit `after`/`before` snapshots** — easy to forget; do it deliberately (see `packages/services/src/integration/snapshot.ts`, called from `integration/delete.ts`).
 9. **Setting auth-relevant cookies in JS.** They become HttpOnly bypassable.
 10. **Conflating dashboard and status-page auth.** Different worlds, different requirements.
 

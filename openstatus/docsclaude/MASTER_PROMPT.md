@@ -544,7 +544,7 @@ If you need to calibrate the style, follow these as reference (these are real fi
 
 - For *pattern catalogs with file anchors*: see `docs/pattern-recognition-handbook/` in the OpenStatus repo (the Codex-produced effort). Strengths: every pattern named, every example anchored.
 - For *language depth grounded in real code*: see `docsclaude/01-javascript-typescript-core/` in the OpenStatus repo (the Claude-produced effort). Strengths: concept → real example → pitfall → drill.
-- For *honest self-critique*: see `docs/CRITIQUE-codex-vs-claude.md`. Strengths: names strengths and weaknesses of both efforts without false balance.
+- For *honest self-critique*: see `CRITIQUE-codex-vs-claude.md` (repo root of the app). Strengths: names strengths and weaknesses of both efforts without false balance.
 
 You don't have to copy structure from these — they're the result of one author's choices, not the platonic ideal. But the *quality bar* they set is what you're aiming for.
 

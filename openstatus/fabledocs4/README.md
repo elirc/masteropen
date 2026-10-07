@@ -8,7 +8,7 @@ The first three fabledocs teach you to *read* this codebase: the curriculum (`..
 | [02 Capstone: at-least-once alerting](02-capstone-at-least-once-alerting.md) | The repo's sharpest known flaw (ADR-009), fixed by you, in five staged milestones from design doc to fault-injection test. | 2-4 days |
 | [03 Labs: SQL & Drizzle](03-labs-sql-and-drizzle.md) | Eight exercises against the real schema: tenancy queries, the partial index, the NOT NULL migration, audit forensics. | 30-60 min each |
 | [04 Labs: pipeline & Go](04-labs-pipeline-and-go.md) | The workflows-testability refactor and Go checker exercises — the two least-practiced muscles in the earlier docs. | 1-3 hrs each |
-| [05 Flashcards](05-flashcards.md) | ~60 retrieval cards: invariants, anchors, tradeoffs, numbers. For spaced repetition, not cramming. | 10 min/day |
+| [05 Flashcards](05-flashcards.md) | 56 retrieval cards: invariants, anchors, tradeoffs, numbers. For spaced repetition, not cramming. | 10 min/day |
 | [06 Four-week plan](06-four-week-plan.md) | A daily schedule threading all four fabledocs into one arc: read → drill → build → interview-ready. | 4 weeks |
 
 ## Rules of engagement

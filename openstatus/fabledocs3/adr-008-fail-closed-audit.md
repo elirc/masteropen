@@ -14,7 +14,7 @@ Every service-layer mutation emits an audit row **inside the same transaction** 
 
 - `packages/services/src/audit/emit.ts:92-149` — the fail-closed emit inside the caller's transaction; auto-diffing; L14-24's hand-rolled `deepEqual` (Edge-safety, ADR-002).
 - `packages/db/src/schema/audit_logs/validation.ts` — the `{entity}.{verb}` discriminated union.
-- `packages/services/src/integration/remove.ts` — the secret-stripping exemplar.
+- `packages/services/src/integration/snapshot.ts` (`snapshotIntegration`, used by `integration/delete.ts`) — the secret-stripping exemplar: it drops `credential` and keeps only a fingerprint.
 - `packages/services/test/helpers.ts` — `expectAuditRow(...)`: every entity's test suite asserts the audit side-effect, making the invariant test-pinned (ADR-010).
 - The asymmetry: `apps/workflows/src/checker/index.ts:227-231` (status flips) and `apps/workflows/src/cron/monitor.ts:292-303` (free-plan auto-pause) mutate domain state with **no audit row** — they bypass the services layer.
 
